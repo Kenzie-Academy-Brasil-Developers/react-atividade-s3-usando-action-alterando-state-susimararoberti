@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(3, 20, 34);
+  height: 150px;
+  width: 50%;
+  margin-top: 10vh;
+  border-radius: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-top: 3vh;
+}
+
+.container--input {
+  padding: 10px;
+  width: 60%;
+  background-color: rgb(230, 227, 227);
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  color: rgb(0, 0, 49);
+}
+
+.container--button {
+  height: 35px;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(230, 227, 227);
+  color: rgb(0, 0, 49);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container--button:hover {
+  transition: 0.3s;
+  background-color: #fff;
+}
